@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Vandalay Directory</string>
+    <string name="hello">EmployeeList</string>
+    <string name="todo">TODO</string>
+    <string name="gotoSearch">Search Directory</string>
+    <string name="appTitle">Vandalay Industries Directory</string>
+    <string name="viewAll">View All</string>
+    <string name="logoContDesc">Company Logo</string>
+    <string name="searchHint">Name or blank for full list</string>
+    <string name="employeePicture">Employee Picture</string>
+    
+
+</resources>

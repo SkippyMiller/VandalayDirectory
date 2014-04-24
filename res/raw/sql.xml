@@ -1,0 +1,30 @@
+<sql>
+<statement>
+CREATE TABLE IF NOT EXISTS employee (
+	_id INTEGER PRIMARY KEY AUTOINCREMENT, 
+	firstName VARCHAR(50), 
+	lastName VARCHAR(50), 
+	title VARCHAR(50), 
+	department VARCHAR(50), 
+	managerId INTEGER, 
+	city VARCHAR(50), 
+	officePhone VARCHAR(30), 
+	cellPhone VARCHAR(30), 
+	email VARCHAR(30), 
+	picture VARCHAR(200))
+</statement>
+<statement>INSERT INTO employee VALUES(1,'Sparky','Sparksalot','Vice President, North East', 'Management', NULL, 'Hackensack','570-999-8888','570-999-8887','sparky@vandalayindustries.com','photo.jpg')</statement>
+<statement>INSERT INTO employee VALUES(2,'Zippy','Pinhead','Regional Manager','Management',1,'Hackensack','570-888-9999','570-222-3333','zippy@vandalayindustries.com','photo.jpg')</statement>
+<statement>INSERT INTO employee VALUES(3,'Al','Kaholic','Assistant Regional Manager','Management',2,'Hackensack','570-444-4444','570-333-3333','boozer@vandalayindustries.com','photo.jpg')</statement>
+<statement>INSERT INTO employee VALUES(4,'Anita','Bath','Assistant Regional Manager','Manage',2,'Hackensack','570-222-2121','570-999-1212','stinky@vandalayindustries.com','photo.jpg')</statement>
+<statement>INSERT INTO employee VALUES(5,'Cole','Kutz','Receptionist','',2,'Hackensack','570-999-5555','570-999-7474','meat@vandalayindustries.com','photo.jpg')</statement>
+<statement>INSERT INTO employee VALUES(6,'Dwayn','Pipe','Senior Accountant','Accounting',2,'Hackensack','570-555-9696','570-999-3232','leaky@vandalayindustries.com','photo.jpg')</statement>
+<statement>INSERT INTO employee VALUES(7,'Howie','Diddot','Accountant','Accounting',6,'Hackensack','570-777-9696','570-111-2525','idunno@vandalayindustries.com','photo.jpg')</statement>
+<statement>INSERT INTO employee VALUES(8,'Jack','Pot','Accountant','Accounting',6,'Hackensack','570-321-9999','570-585-3333','winner@vandalayindustries.com','photo.jpg')</statement>
+<statement>INSERT INTO employee VALUES(9,'Joe','King','Quality Assurance','Customer Services',2,'Hackensack','570-222-6666','333-8585','crackmeup@vandalayindustries.com','photo.jpg')</statement>
+<statement>INSERT INTO employee VALUES(10,'Justin','Case','Sales Director','Sales',2,'Hackensack','570-555-0000','570-546-9999','uneverknow@vandalayindustries.com','photo.jpg')</statement>
+<statement>INSERT INTO employee VALUES(11,'Kitty','Litter','Sales Representative','Sales',10,'Hackensack','570-141-3333','570-888-6666','absorbant@vandalayindustries.com','photo.jpg')</statement>
+<statement>INSERT INTO employee VALUES(12,'Lotta','Hare','Sales Representative','Sales',10,'Hackensack','570-700-6666','570-777-6666','harry@vandalayindustries.com','photo.jpg')</statement>
+<statement>INSERT INTO employee VALUES(13,'Oliver','Sutton','Supplier Relations','Customer Services',2,'Hackensack','570-555-8888','570-777-2222','justhappened@vandalayindustries.com','photo.jpg')</statement>
+<statement>INSERT INTO employee VALUES(14,'Robin','Banks','Customer Service Rep.','Customer Services',2,'Hackensack','570-123-9654','570-125-3666','burgler@vandalayindustries.com','photo.jpg')</statement>
+</sql>
